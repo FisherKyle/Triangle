@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>What kind of triangle?</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="sidesForm">
+
+        <div class="form-group">
+          <label for="firstSide">Side 1</label>
+          <input id="firstSide" class="form-control" type="number">
+        </div>
+
+        <div class="form-group">
+          <label for="secondSide">Side 2</label>
+          <input id="secondSide" class="form-control" type="number">
+        </div>
+
+        <div class="form-group">
+          <label for="thirdSide">Side 3</label>
+          <input id="thirdSide" class="form-control" type="number">
+        </div>
+
+
+      </form>
+      <p class="equilateral answer">Your triangle is an EQUILATERAL TRIANGLE.</p>
+      <p class="isosceles answer">Your triangle is an ISOSCELES TRIANGLE.</p>
+      <p class="scalene answer">Your triangle is an SCALENE TRIANGLE.</p>
+      <p class="falsetriangle answer">The lengths provided cannot make a triangle.</p>
+
+      <button id="result" class="btn">result</button>
+
+    </div>
+
+  </body>
+</html>
